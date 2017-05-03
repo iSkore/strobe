@@ -10,7 +10,7 @@ clover.xml
 .tags
 .tags1
 *.ss*
-
+.ide*
 # Node logs
 npm-debug.log*
 logs
