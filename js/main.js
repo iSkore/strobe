@@ -101,4 +101,16 @@ $( document ).ready( () => {
         .change( function() {
             property.cssEnd.opacity = ( $( this ).val() / 100 );
         } );
+
+    $( '.ui-slider-input#ewidth' )
+        .change( function() {
+            property.cssEnd.width = ( $( this ).val() + '%' );
+            property.cssEnd.left = ( 50 - ( $( this ).val() / 2 ) + '%' );
+        } );
+
+    $( '.ui-slider-input#eheight' )
+        .change( function() {
+            property.cssEnd.height = ( $( this ).val() + '%' );
+            property.cssEnd.top = ( 50 - ( $( this ).val() / 2 ) + '%' );
+        } );
 } );
