@@ -17,7 +17,6 @@ body
 #settings .fa {
     color: black;
     text-align: center;
-    z-index: 100;
 }
 
 .strobe {
@@ -30,6 +29,7 @@ body
 .ui-btn {
     color: transparent !important;
     background-color: transparent !important;
+    z-index: 100;
 }
 
 .ui-mobile .ui-page .ui-slider-input,
